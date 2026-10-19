@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-usage",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Show ChatGPT plan usage in OpenCode.",
   "type": "module",
   "repository": {
@@ -10,8 +10,7 @@
   "files": [
     "index.ts",
     "tui.ts",
-    "src",
-    "tsconfig.json"
+    "src"
   ],
   "exports": {
     ".": "./index.ts",
