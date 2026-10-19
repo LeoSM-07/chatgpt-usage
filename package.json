@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-usage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Show ChatGPT plan usage in OpenCode.",
   "type": "module",
   "repository": {
@@ -26,13 +26,27 @@
     "effect": "4.0.1"
   },
   "devDependencies": {
+    "@opencode/theme": "2.0.32",
+    "@opentui/core": "0.5.17",
+    "@opentui/solid": "0.5.17",
     "@types/bun": "latest",
+    "solid-js": "1.9.15",
     "typescript": "^7"
   },
   "peerDependencies": {
-    "@opencode/theme": "2.0.32",
     "@opentui/core": ">=0.5.17",
     "@opentui/solid": ">=0.5.17",
     "solid-js": ">=1.9.0"
+  },
+  "peerDependenciesMeta": {
+    "@opentui/core": {
+      "optional": true
+    },
+    "@opentui/solid": {
+      "optional": true
+    },
+    "solid-js": {
+      "optional": true
+    }
   }
 }
