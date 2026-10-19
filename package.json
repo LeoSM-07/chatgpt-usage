@@ -10,7 +10,8 @@
   "files": [
     "index.ts",
     "tui.ts",
-    "src"
+    "src",
+    "tsconfig.json"
   ],
   "exports": {
     ".": "./index.ts",

@@ -1,3 +1,5 @@
+/** @jsxImportSource @opentui/solid */
+
 import { Plugin } from "@opencode/plugin/tui"
 import type { Context } from "@opencode/plugin/tui/context"
 import { useKeyboard } from "@opentui/solid"
