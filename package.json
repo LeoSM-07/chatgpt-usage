@@ -1,0 +1,37 @@
+{
+  "name": "chatgpt-usage",
+  "version": "0.1.0",
+  "description": "Show ChatGPT plan usage in OpenCode.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoSM-07/chatgpt-usage.git"
+  },
+  "files": [
+    "index.ts",
+    "tui.ts",
+    "src"
+  ],
+  "exports": {
+    ".": "./index.ts",
+    "./rpc": "./src/rpc.ts",
+    "./tui": "./tui.ts"
+  },
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.0.32",
+    "effect": "4.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^7"
+  },
+  "peerDependencies": {
+    "@opencode/theme": "2.0.32",
+    "@opentui/core": ">=0.5.17",
+    "@opentui/solid": ">=0.5.17",
+    "solid-js": ">=1.9.0"
+  }
+}
