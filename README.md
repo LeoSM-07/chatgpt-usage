@@ -2,6 +2,10 @@
 
 Shows ChatGPT plan limits and reset times in OpenCode with `/usage`.
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="ChatGPT Usage dialog">
+</p>
+
 ## Install
 
 ```sh
