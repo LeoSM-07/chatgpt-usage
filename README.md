@@ -1,6 +1,6 @@
 # ChatGPT Usage
 
-Shows ChatGPT plan limits and reset times in OpenCode with `/usage`.
+Shows ChatGPT plan limits and reset times in OpenCode Desktop and the TUI with `/limits`.
 
 <p align="center">
   <img src="docs/screenshot.png" alt="ChatGPT Usage dialog">

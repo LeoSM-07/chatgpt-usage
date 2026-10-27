@@ -193,7 +193,7 @@ export default Plugin.define({
           group: "OpenAI",
           palette: true,
           suggested: true,
-          slash: { name: "usage" },
+          slash: { name: "limits" },
           run: () =>
             Effect.tryPromise({
               try: () => usage.read({}, { location: context.location ?? context.data.location.default() }),
