@@ -2,13 +2,9 @@
 
 Shows ChatGPT plan limits and reset times in OpenCode Desktop and the TUI with `/limits`.
 
-### Desktop
-
 <p align="center">
   <img src="docs/screenshot.png" alt="ChatGPT Usage Desktop dialog">
 </p>
-
-### TUI
 
 <p align="center">
   <img src="docs/tui-screenshot.png" alt="ChatGPT Usage TUI dialog">
